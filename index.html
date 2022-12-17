@@ -5,61 +5,160 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
+
   <script src="https://kit.fontawesome.com/4878f9ce79.js" crossorigin="anonymous"></script>
 
   <title>Admin Dashboard</title>
 </head>
-<body>
+<body style="font-size: 16px;background-color: #dae4ef;">
   <main>
     <header>
       <div class="header">
         <section class="top">
-          <label for="search"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></label>
-          <input type="search" name="search" id="search" placeholder="Search...">
+          <div class="search">
+            <label for="search"><i class="fa-sharp fa-solid fa-magnifying-glass fa-xs"></i></label>
+            <input type="search" name="search" id="search">  
+          </div>
+          <div class="top-right">
+            <i class="bi bi-bell"></i>
+            <figure>
+              <img src="images/android-7479380.png" alt="Avatar" width="30px" height="30px">
+              <figcaption>Morgan Oakley</figcaption>
+            </figure>
+          </div>
         </section>
         <section class="bottom">
           <figure>
-            <img src="" alt="">
-            <figcaption><small>Hi there,</small><br><h4>Morgan Oakley (@morgan)</h4></figcaption>
+            <img src="images/android-7479380.png" alt="Avatar" width="50px" height="50px">
+            <figcaption>Hi there,<br><h6>Morgan Oakley (@morgan)</h6></figcaption>
           </figure>
+          <div class="buttons">
+            <button type="button">New</button>
+            <button type="button">Upload</button>
+            <button type="button">Share</button>
+          </div>
         </section>
     </div>  
     </header>
-    <nav>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, fugiat quae delectus distinctio voluptas, necessitatibus exercitationem odio vel qui atque nostrum nihil optio odit veniam architecto, corporis vero officiis nisi?</nav>
+    <nav>
+      <div class="first"><i class="fa-solid fa-cube"></i><span>Dashboard</span></div>
+      <div>
+        <p><i class="fa-solid fa-house"></i><span>Home</span></p>
+        <p><i class="fa-regular fa-address-card"></i><span>profile</span></p>
+        <p><i class="fa-solid fa-message"></i><span>messages</span></p>
+        <p><i class="fa-solid fa-clock"></i><span>history</span>
+        <p><i class="fa-regular fa-file"></i><span>tasks</span></p>
+        <p><i class="fa-solid fa-users-line"></i><span>communities</span></p>
+      </div>
+      <div>
+        <p><i class="fa-solid fa-gear"></i><span>settings</span></p>
+        <p class="padd">
+          <div class="fa-stack small">
+            <i class="fa-solid fa-square fa-stack-2x"></i><i class="fa-solid fa-question fa-stack-1x"></i></div>Support
+        </p>
+        <p class="padd">
+          <div class="fa-stack small"><i class="fa-solid fa-shield fa-stack-2x"></i><i class="fa-solid fa-check fa-stack-1x fa-2xs"></i></div>
+        <span>Privacy</span>
+      </p>
+      </div>
+    </nav>
     <article>
-      <div>
+      <h3 class="project">Your Projects</h3>
+      <h3 class="anoun">Announcements</h3>
+      <div id="card">
         <h3>Lorem, ipsum.</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse laborum tenetur debitis corrupti veniam nisi enim consequatur error sapiente modi!</p>
+        <div class="icons">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-eye"></i>
+          <i class="fa-solid fa-code-fork"></i>
+        </div>
       </div>
-      <div>
+      <div id="card">
         <h3>Lorem, ipsum.</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse laborum tenetur debitis corrupti veniam nisi enim consequatur error sapiente modi!</p>
+        <div class="icons">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-eye"></i>
+          <i class="fa-solid fa-code-fork"></i>
+        </div>
+
       </div>
-      <div>
+      <div id="card">
         <h3>Lorem, ipsum.</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse laborum tenetur debitis corrupti veniam nisi enim consequatur error sapiente modi!</p>
+        <div class="icons">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-eye"></i>
+          <i class="fa-solid fa-code-fork"></i>
+        </div>
+
       </div>
-      <div>
+      <div id="card">
         <h3>Lorem, ipsum.</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse laborum tenetur debitis corrupti veniam nisi enim consequatur error sapiente modi!</p>
+        <div class="icons">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-eye"></i>
+          <i class="fa-solid fa-code-fork"></i>
+        </div>
+
       </div>
-      <div>
+      <div id="card">
         <h3>Lorem, ipsum.</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse laborum tenetur debitis corrupti veniam nisi enim consequatur error sapiente modi!</p>
+        <div class="icons">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-eye"></i>
+          <i class="fa-solid fa-code-fork"></i>
+        </div>
+
       </div>
-      <div>
+      <div id="card">
         <h3>Lorem, ipsum.</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse laborum tenetur debitis corrupti veniam nisi enim consequatur error sapiente modi!</p>
+        <div class="icons">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-eye"></i>
+          <i class="fa-solid fa-code-fork"></i>
+        </div>
+
       </div>
+      <aside>
+        <div>
+          <h4>Lorem, ipsum.</h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis delectus itaque accusantium dolorem suscipit.
+          <hr>
+          <h4>Lorem, ipsum.</h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis delectus itaque accusantium dolorem suscipit.
+          <hr>
+          <h4>Lorem, ipsum.</h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis delectus itaque accusantium dolorem suscipit.
+          <hr>
+        </div>
+        <h3>Trending</h3>
+        <div class="trend">
+          <figure>
+            <img src="images/amusing-1299757.png" alt="Avatar" width="50px" height="50px">
+            <figcaption><h5>@tegan</h5>World Peace Builder</figcaption>
+          </figure>
+          <figure>
+            <img src="images/android-7479380.png" alt="Avatar" width="50px" height="50px">
+            <figcaption><h5>@morgan</h5>Supercool Project</figcaption>
+          </figure>
+          <figure>
+            <img src="images/woman-5458225_640.png" alt="Avatar" width="50px" height="50px">
+            <figcaption><h5>@kendall</h5>Life Changing App</figcaption>
+          </figure>
+          <figure>
+            <img src="images/superhero-5981125.png" alt="Avatar" width="50px" height="50px">
+            <figcaption><h5>@alex</h5>No Traffic Maker</figcaption>
+          </figure>
+
+        </div>
+      </aside>
     </article>
-    <aside>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi porro voluptatibus quisquam repellat.
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi porro voluptatibus quisquam repellat.
-      </div>
-    </aside>
   </main>
+
 </body>
 </html>
